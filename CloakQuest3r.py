@@ -301,7 +301,7 @@ if __name__ == "__main__":
         technology = detect_web_server(domain)
         print(f"\n{Fore.GREEN}[+] {C}Website is using: {Fore.GREEN} {technology}")
 
-        proceed = input(f"\n{Fore.YELLOW}> Do you want to proceed? {Fore.GREEN}(yes/no): ").lower()
+        proceed = "yes"
 
         if proceed == "yes":
             print(f"\n{R}Target Website: {W}{domain}")
